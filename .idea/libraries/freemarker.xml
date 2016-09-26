@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="freemarker">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/extlib/freemarker.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extlib/ojdbc14.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
