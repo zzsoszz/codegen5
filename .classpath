@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resource"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/freemarker"/>
+	<classpathentry kind="lib" path="extlib/commons-beanutils-1.9.3.jar"/>
+	<classpathentry kind="lib" path="extlib/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="extlib/freemarker.jar"/>
+	<classpathentry kind="lib" path="extlib/jackson-all-1.9.5.jar"/>
+	<classpathentry kind="lib" path="extlib/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="extlib/json.jar"/>
+	<classpathentry kind="lib" path="extlib/ojdbc14.jar"/>
+	<classpathentry kind="output" path="out/production/codegen5"/>
+</classpath>

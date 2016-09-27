@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="freemarker">
+    <archive path="D:/bxdev/github/codegen5/extlib/freemarker.jar" />
+    <archive path="D:/bxdev/github/codegen5/extlib/ojdbc14.jar" />
+    <archive path="D:/bxdev/github/codegen5/extlib/commons-beanutils-1.9.3.jar" />
+    <archive path="D:/bxdev/github/codegen5/extlib/jackson-all-1.9.5.jar" />
+    <archive path="D:/bxdev/github/codegen5/extlib/json.jar" />
+    <archive path="D:/bxdev/github/codegen5/extlib/commons-io-2.5.jar" />
+    <archive path="D:/bxdev/github/codegen5/extlib/json-lib-2.4-jdk15.jar" />
+  </library>
+</eclipse-userlibraries>
+

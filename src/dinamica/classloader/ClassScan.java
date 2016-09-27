@@ -50,6 +50,7 @@ public class ClassScan {
 			if (file.isFile()) {
 				if (path.endsWith(".class")) {
 					String calssname=basePackageName + "." + path.substring(path.lastIndexOf('\\') + 1, path.lastIndexOf('.'));
+					System.out.println(calssname);
 					Class<?> demo = my.loadClass(calssname);
 					classNames.put(calssname,demo);
 				}

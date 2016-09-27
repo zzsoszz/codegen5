@@ -3,6 +3,11 @@
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/extlib/freemarker.jar!/" />
       <root url="jar://$PROJECT_DIR$/extlib/ojdbc14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extlib/commons-beanutils-1.9.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extlib/jackson-all-1.9.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extlib/json.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extlib/commons-io-2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extlib/json-lib-2.4-jdk15.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
