@@ -1,6 +1,6 @@
-<div ng-controller="addController">
+<div ng-controller="editController">
 <div>
-	<form name="addForm" ng-submit="doAdd(addForm)">
+	<form name="addForm" ng-submit="doUpdate(addForm)">
 		<div class="title">${model.title}</div>
         <div class="hline"></div>
         <div>
@@ -24,7 +24,7 @@
                     </div>
 		        </div>
 		        </#if>
-		        <#if item.type =='muliplyselect'  && item.typedata??  >
+		        <#if item.type =='muliplyselect'  && item.typedata??   >
 		        <div>
 			        <span>${item.title}</span>
 			        <div>
@@ -52,20 +52,20 @@
                     </div>
 		        </div>
 		        </#if>
+		        
 		        <#if item.type =='richtext'  >
 		        <div>
 			        <span>${item.title}</span>
 			        <div>
-                         <div class="ueditor" ng-model="item.${item.name}"  style="height:600px" >
+                         <div class="ueditor" ng-model="item.${item.name}"   style="height:600px" >
                          </div>
                     </div>
 		        </div>
 		        </#if>
-		        
 		   </#list>
 		   
 		    <div style="clear:both;padding-top:20px;text-align:center;">
-                <input  type="submit" class="actionbtn" value="添加" >
+                <input  type="submit" class="actionbtn" value="保存" >
             </div>
        </div>
 	</form>

@@ -12,23 +12,23 @@ public class Field {
 	private boolean detailEnable;
 	private boolean listEnable;
 	private boolean require;
-	
 	public Field(){
 		
 	}
-
 	public Field(String name,String title,String type,String typedata,String parent,boolean addEnable,boolean searchEnable,boolean editEnable,boolean detailEnable,boolean listEnable,boolean require){
 		this.name=name;
 		this.title=title;
 		this.type=type;
-		this.typedata=typedata==null?"":typedata;
-		this.parent=parent==null?"":parent;
+		this.typedata=typedata;
+		this.parent=parent;
 		this.addEnable=addEnable;
 		this.searchEnable=searchEnable;
 		this.editEnable=editEnable;
 		this.detailEnable=detailEnable;
 		this.listEnable=listEnable;
 		this.require=require;
+//		this.typedata=typedata==null?"":typedata;
+//		this.parent=parent==null?"":parent;
 	}
 	
 	public String getTypedata() {

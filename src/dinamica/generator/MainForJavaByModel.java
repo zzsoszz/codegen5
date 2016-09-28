@@ -32,17 +32,16 @@ public class MainForJavaByModel {
     		
     		com.qingtian.model.Model model=new com.qingtian.model.Model();
     		ArrayList<Field> fields=new ArrayList<Field>();
-			fields.add(new Field("keyword","关键词","text",null,null,true,true,true,true,true,true));
-			fields.add(new Field("id","编号","text",null,null,true,true,true,true,true,true));
-			fields.add(new Field("mainTitle","主标题","text",null,null,true,true,true,true,true,true));
-			fields.add(new Field("content","内容","text",null,null,true,true,true,true,true,true));
-			fields.add(new Field("courseCover","封面","text",null,null,true,true,true,true,true,true));
-			fields.add(new Field("courseType","课程类型","muliplyselect","courseTypeArray",null,true,true,true,true,true,true));
-			fields.add(new Field("province","省份","muliplyselect","provinceArray",null,true,true,true,true,true,true));
-			fields.add(new Field("city","城市","muliplyselect",null,"province",true,true,true,true,true,true));
-			fields.add(new Field("createtime","时间","daterangepicker",null,null,true,true,true,true,true,true));
-			fields.add(new Field("html","时间","html",null,null,true,true,true,true,true,true));
+    		fields.add(new Field("id","编号","text",null,null,false,false,false,false,false,false));
+			fields.add(new Field("mainTitle","课程标题","text",null,null,true,true,true,true,true,true));
+			fields.add(new Field("free","是否付费","muliplyselect","freeArray",null,false,false,false,false,true,false));
+			fields.add(new Field("courseTypeId","课程类型","muliplyselect","courseTypeIdArray",null,true,true,true,true,true,true));
+			fields.add(new Field("content","课程内容","richtext",null,null,true,true,true,true,true,true));
+			fields.add(new Field("courseCover","封面","img",null,null,true,true,true,true,true,true));
+//			fields.add(new Field(false,"createtime","时间","daterangepicker",null,null,true,true,true,true,true,true));
+//			fields.add(new Field(false,"html","时间","html",null,null,true,true,true,true,true,true));
 			model.setFields(fields);
+			model.setPkfield("id");
 			model.setTitle("微课堂");
 			String basePackageName=modelpackagename.substring(0,modelpackagename.lastIndexOf("."));
 			String basePackageNamePath=basePackageName.replaceAll("\\.","/");

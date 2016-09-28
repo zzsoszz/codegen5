@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cc9fd86-c48c-41ef-8055-24058e27182b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extlib/commons-beanutils-1.9.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extlib/jackson-all-1.9.5.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extlib/json-lib-2.4-jdk15.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extlib/json.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dinamica/util/DataUtils.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resource/sourcetemplate/v1.0.1/java/bo.java.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resource/sourcetemplate/v1.0.1/java/controller.java.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resource/sourcetemplate/v1.0.1/java/dao.java.ftl" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/freemarker.xml" afterPath="$PROJECT_DIR$/.idea/libraries/freemarker.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dinamica/classloader/ClassScan.java" afterPath="$PROJECT_DIR$/src/dinamica/classloader/ClassScan.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/sourcetemplate/v1.0.1/module/qmicrocourse/add.html.ftl" afterPath="$PROJECT_DIR$/resource/sourcetemplate/v1.0.1/module/qmicrocourse/add.html.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/qingtian/model/Field.java" afterPath="$PROJECT_DIR$/src/com/qingtian/model/Field.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/qingtian/model/Model.java" afterPath="$PROJECT_DIR$/src/com/qingtian/model/Model.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/qingtian/model/ScanModel.java" afterPath="$PROJECT_DIR$/src/com/qingtian/model/ScanModel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dinamica/generator/MainForJavaByModel.java" afterPath="$PROJECT_DIR$/src/dinamica/generator/MainForJavaByModel.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/bxtel/knowledge/model/Knowledge.java" afterPath="$PROJECT_DIR$/src/com/qingtian/model/Model.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resource/sourcetemplate/v1.0.1/module/qmicrocourse/edit.html" afterPath="$PROJECT_DIR$/resource/sourcetemplate/v1.0.1/module/qmicrocourse/edit.html.ftl" />
     </list>
     <ignored path="codegen5.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,24 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileHelper.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FileHelper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dinamica/util/FileHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <element signature="e#17607#17608#0" expanded="false" />
-                <element signature="e#17655#17656#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataUtils.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dinamica/util/DataUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5830721">
-              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.20898642">
+              <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,6 +90,13 @@
   <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -690,16 +677,16 @@
       <updated>1474901640181</updated>
       <workItem from="1474939502083" duration="2345000" />
       <workItem from="1474941942270" duration="736000" />
-      <workItem from="1474943005752" duration="1249000" />
+      <workItem from="1474943005752" duration="1873000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4330000" />
+    <option name="totallyTimeSpent" value="4954000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="2052" height="1119" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -806,21 +793,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dinamica/util/FileHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#17607#17608#0" expanded="false" />
-            <element signature="e#17655#17656#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dinamica/util/DataUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5830721">
           <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dinamica/util/FileHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20898642">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
